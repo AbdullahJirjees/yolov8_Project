@@ -5,7 +5,7 @@ import math
 import numpy as np
 
 #cap = cv2.VideoCapture(2)
-cap = cv2.VideoCapture("images/bikes.mp4")
+cap = cv2.VideoCapture("images/motorbikes.mp4")
 model = YOLO("../yolov8_Project/Yolo-Weights/yolov8l.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
